@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="401.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.ScoreBoardViewer">
+    <children>
+        <Button layoutX="177.0" layoutY="351.0" mnemonicParsing="false" onAction="#Return" prefHeight="26.0" prefWidth="102.0" text="Return" />
+      <ScrollPane layoutX="-1.0" layoutY="14.0" prefHeight="306.0" prefWidth="456.0">
+         <content>
+            <VBox prefHeight="302.0" prefWidth="452.0">
+               <children>
+                    <GridPane fx:id="table" alignment="CENTER" gridLinesVisible="true" prefHeight="37.0" prefWidth="195.0">
+        </GridPane>
+               </children>
+            </VBox>
+         </content>
+      </ScrollPane>
+    </children>
+</AnchorPane>

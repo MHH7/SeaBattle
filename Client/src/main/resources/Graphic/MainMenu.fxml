@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="203.0" prefWidth="351.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="View.MainMenuViewer">
+   <children>
+      <Button fx:id="newGameButton" layoutX="36.0" layoutY="27.0" mnemonicParsing="false" onAction="#createNewGame" prefHeight="26.0" prefWidth="278.0" text="New Game" />
+      <Button fx:id="watchButton" layoutX="36.0" layoutY="64.0" mnemonicParsing="false" onAction="#watch" prefHeight="26.0" prefWidth="278.0" text="Watch Others Game" />
+      <Button fx:id="scoreBoardButton" layoutX="36.0" layoutY="102.0" mnemonicParsing="false" onAction="#showScoreBoard" prefHeight="26.0" prefWidth="278.0" text="ScoreBoard" />
+      <Button fx:id="infoButton" layoutX="36.0" layoutY="138.0" mnemonicParsing="false" onAction="#showPersonalInfo" prefHeight="26.0" prefWidth="278.0" text="Personal Info" />
+      <Label fx:id="waitingLabel" alignment="CENTER" layoutX="36.0" layoutY="172.0" prefHeight="18.0" prefWidth="278.0" text="Waiting for oppenet" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
