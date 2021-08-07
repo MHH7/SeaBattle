@@ -1,0 +1,37 @@
+Model/ShipType.java
+ Model.ShipType
+Model/Cell.java
+ Model.Cell
+Controller/PlayerThread.java
+ Controller.PlayerThread
+Model/Type.java
+ Model.Type
+Model/Board.java
+ Model.Board
+Controller/BoardBuilder.java
+ Controller.BoardBuilder
+Controller/MainServer.java
+ Controller.MainServer
+ Controller.MainServer$1
+Model/Responses/GamesData.java
+ Model.Responses.GamesData
+Model/Player.java
+ Model.Player
+Model/Requests/Request.java
+ Model.Requests.Request
+Main.java
+ Main
+Model/Game.java
+ Model.Game
+Model/Responses/PlayersData.java
+ Model.Responses.PlayersData
+Model/Requests/UserPassData.java
+ Model.Requests.UserPassData
+Config/Config.java
+ Config.Config
+Model/Ship.java
+ Model.Ship
+Model/Responses/UpdateData.java
+ Model.Responses.UpdateData
+Model/Responses/Response.java
+ Model.Responses.Response
